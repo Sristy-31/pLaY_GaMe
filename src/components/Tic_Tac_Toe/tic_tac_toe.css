@@ -1,0 +1,40 @@
+/*Tic-Tac_Toe*/
+
+.tic_tac_toe_wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.turn {
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+    color: #1A3C40;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.tic_tbl td {
+	border: 10px solid #1A3C40;
+	width: 100px;
+	height: 100px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 0;
+}
+
+.winner {
+    padding-top: 10px;
+    background-color: #e45b69;
+    color: #EDE6DB;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: 20px;
+}
